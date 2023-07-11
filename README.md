@@ -7,5 +7,3 @@ Grupo de estudio de desarrollo web con Antivirus para la Deserción
 ## Clase 2
 - Instalación GIT
 - Gestion de repositorios
-
-
