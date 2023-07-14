@@ -1,10 +1,36 @@
+:root {
+  --fondo: black;
+}
+
 body {
-  background-color: black;
+  background-color: var(--fondo);
 } 
+
+#aifon {
+  background-color: var(--fondo);
+  border: 3px solid white;
+  border-radius: 50px;
+  width: calc(1170px/5);
+  height: calc(2535px/5);
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#island {
+  border: 1px solid white;
+  margin: 0 auto;
+  width: calc(1170px/12);
+  height: 25px;
+  border-radius: 30px;
+  
+}
 
 #resultado h2 {
   color: white;
-  /* text-align: right; */
+  text-align: right;
+  font-size: 200%;
+  padding-right: 10%;
 }
 
 button {
@@ -13,19 +39,40 @@ button {
   height: 50px;
 }
 
-.numbers .columna button {
-  background-color: #4d4d4d;
-  color: white;
-  
+#top {
+  float:inline-start
 }
 
-.numbers .columna button:hover {
+#numbers {
+  float: left;
+}
+
+#numbers .columna button {
+  background-color: #4d4d4d;
+  color: white;
+  font-size: 150%;
+}
+
+#numbers .columna button:hover {
   background-color: #666666;
 }
 
-#punto{
-  border-radius: 30px 30px 30px 30px;
+#cero {
+  border-radius: 30px;
   width: 100px;
   text-align: left;
-  padding-left:20px ;
+  padding-left:20px;
+}
+
+#operations {
+  float: right;
+}
+
+#gestos {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 14%;
+  width: calc(1170px/12);
+  height: 5px;
+  border-radius: 30px;
 }
