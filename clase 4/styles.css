@@ -1,0 +1,84 @@
+.cuadrado {
+  width: 240pt;
+  height: 20pc;
+  background-color: #3ac821;
+  border: dashed black;
+  border-width: 10px 5px 20px 30px;
+
+}
+
+.pelotica {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+/* 
+  pt: 1pt = 1/72 pulgadas
+  pc: 1pc = 12 puntos
+*/
+
+h2{
+  font-size: 2em;
+  color: #fc0707;
+  background-color: blue;
+}
+
+
+
+#parrafo {
+  text-indent: 10%;
+  text-align: justify;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  font-family: 'helvetica', Times, serif;
+  vertical-align: 10px;
+  display: none;
+}
+
+#cortico{
+  font-family: 'helvetica', Times, serif;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: xx-large;
+  display: none;
+}
+
+#lista{
+  list-style-type: lower-greek;
+  list-style-position: inside;
+}
+
+#tabla {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#url:link {
+  font-size: 2em;
+  color: blue;
+}
+
+#url:visited{
+  color:grey;
+}
+
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: blue;
+}
+
+button:hover{
+  background-color: red;
+}
+

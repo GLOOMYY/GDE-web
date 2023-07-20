@@ -1,0 +1,25 @@
+:root{
+  --padre:red;
+  --hijo:blue;
+}
+
+#container{ /* padre */
+  display:flex;
+  position: relative;
+  background-color: var(--padre);
+  width:500px;
+  height: 500px;
+}
+
+.cuadrado { /* hijo */
+  width:50%;
+  height: 50%;
+  background-color: var(--hijo);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: inline;
+  position: absolute; 
+  border-radius: min(50, 25);
+  visibility: hidden;
+}
+

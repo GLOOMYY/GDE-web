@@ -2,6 +2,10 @@
   --fondo: black;
 }
 
+*{
+  font-family:helvetica;
+}
+
 body {
   background-color: var(--fondo);
 } 
