@@ -24,4 +24,10 @@ Grupo de estudio de desarrollo web con Antivirus para la Deserción
 - Ejemplo mini Blog
 
 ## Clase 5
-- ¿Que es JavaScript?
+- Bootstrap
+- Tipos de inputs
+- Botones
+- Ejemplo Formulario
+
+## Clase 6
+- JavaScript
