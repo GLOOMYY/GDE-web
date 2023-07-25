@@ -31,3 +31,13 @@ Grupo de estudio de desarrollo web con Antivirus para la Deserción
 
 ## Clase 6
 - JavaScript
+
+## Clase 7
+- Calculadora Iphone
+
+
+
+# Proyectos:
+- Calculadora de Iphone
+- Ajedrez
+- CV
