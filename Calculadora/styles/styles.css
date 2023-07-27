@@ -71,8 +71,8 @@ html, body {
   color: var(--texto_blanco)
 }
 
-.cero {
+.btn.cero {
   grid-column: span 2;
-  width: 20vw;
+  width: 43vw;
   border-radius: 135px;
 }
