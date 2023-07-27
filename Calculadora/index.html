@@ -4,71 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/styles.css">
-  <title>Calculadora Iphone</title>
+  <title>Calculadora</title>
 </head>
-
 <body>
 
-  <div id="aifon">
-    <div id="island">
+  <!-- Utilizaremos BEM para las clases -->
+  <!-- class="Bloque__elemento--modificador" -->
 
+  <!-- Div que contiene toda la calculadora -->
+  <div class="calculadora">
+
+    <!-- Div que contiene el resultado -->
+    <div class="resultado">
+      <span>0</span>
     </div>
 
-    <div id="resultado">
-      <h2>0</h2>
+    <!-- Div que contiene el teclado -->
+    <div class="teclado"> 
+      <!-- Primer renglon -->
+      <button class="teclado btn top">AC</button>
+      <button class="teclado btn top">&plus;/&minus;</button>
+      <button class="teclado btn top">&percnt;</button>
+      <button class="teclado btn lateral">&divide;</button>
+
+      <!-- Segundo renglon --> 
+      <button class="teclado btn numeros">7</button>
+      <button class="teclado btn numeros">8</button>
+      <button class="teclado btn numeros">9</button>
+      <button class="teclado btn lateral">&#215;</button>
+
+      <!-- Tercer renglon -->
+      <button class="teclado btn numeros">4</button>
+      <button class="teclado btn numeros">5</button>
+      <button class="teclado btn numeros">6</button>
+      <button class="teclado btn lateral">&minus;</button>
+
+      <!-- Cuarto renglon -->
+      <button class="teclado btn numeros">1</button>
+      <button class="teclado btn numeros">2</button>
+      <button class="teclado btn numeros">3</button>
+      <button class="teclado btn lateral">&plus;</button>
+
+      <!-- Quinto renglon -->
+      <button class="teclado btn numeros cero">0</button>
+      <button class="teclado btn numeros">,</button>
+      <button class="teclado btn lateral">&equals;</button>
     </div>
 
-    <div id="teclado">
 
-      <div id="top">
-        <div class="columna">
-          <button>AC</button>
-          <button>+/-</button>
-          <button>%</button>
-        </div>
-      </div>
-
-      <div id="numbers">
-        <div class="columna">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-        </div>
-
-        <div class="columna">
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-        </div>
-
-        <div class="columna">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-        </div>
-
-        <div class="columna">
-          <button id="cero">0</button>
-          <button>.</button>
-        </div>
-
-      </div>
-
-      <div id="operations">
-        <div class="fila">
-          <button>&divide;</button>
-          <button>&#215;</button>
-          <button>&minus;</button>
-          <button>&plus;</button>
-          <button>&equals;</button>
-        </div>
-      </div>
-
-    </div>
-
-    <div id="gestos"></div>
   </div>
-
 </body>
-
 </html>

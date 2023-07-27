@@ -1,82 +1,78 @@
 :root {
-  --fondo: black;
+  --fondo: #1c1c1e;
+  --gris_btn: #3A3A3C;
+  --naranja_btn: #FF9500;
+  --blanco_btn: #FFFFFF;
+  --texto_blanco: #FFFFFF;
+  --texto_negros: #000000;
 }
 
 *{
-  font-family:helvetica;
+  font-family: helvetica, arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-body {
+html, body {
   background-color: var(--fondo);
-} 
-
-#aifon {
-  background-color: var(--fondo);
-  border: 3px solid white;
-  border-radius: 50px;
-  width: calc(1170px/5);
-  height: calc(2535px/5);
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 10px;
+  min-height: 100% !important;
+  height: 100%;
 }
 
-#island {
-  border: 1px solid white;
-  margin: 0 auto;
-  width: calc(1170px/12);
-  height: 25px;
-  border-radius: 30px;
-  
+.calculadora {
+  margin-top: 40%;
+  margin-bottom: 50%;
 }
 
-#resultado h2 {
-  color: white;
-  text-align: right;
-  font-size: 200%;
-  padding-right: 10%;
+.resultado {
+  color: var(--texto_blanco);
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10vw;
+  font-size: 30vw;
+  justify-self: flex-end;
 }
 
-button {
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
+.teclado {
+  width: 100%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
-#top {
-  float:inline-start
+.teclado .btn {
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  font-size: 10vw;
+  padding: 2vw;
+  margin: 1vw;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
+  border: none;
 }
 
-#numbers {
-  float: left;
+.top {
+  background-color: var(--blanco_btn);
+  color: var(--texto_negro);
 }
 
-#numbers .columna button {
-  background-color: #4d4d4d;
-  color: white;
-  font-size: 150%;
+.lateral{
+  background-color: var(--naranja_btn);
+  color: var(--texto_blanco);
 }
 
-#numbers .columna button:hover {
-  background-color: #666666;
+.numeros{
+  background-color: var(--gris_btn);
+  color: var(--texto_blanco)
 }
 
-#cero {
-  border-radius: 30px;
-  width: 100px;
-  text-align: left;
-  padding-left:20px;
-}
-
-#operations {
-  float: right;
-}
-
-#gestos {
-  background-color: white;
-  margin: 0 auto;
-  margin-top: 14%;
-  width: calc(1170px/12);
-  height: 5px;
-  border-radius: 30px;
+.cero {
+  grid-column: span 2;
+  width: 20vw;
+  border-radius: 135px;
 }
